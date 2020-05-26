@@ -1,0 +1,9 @@
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\bin\Debug\netstandard2.0\CommandLet.Models.deps.json
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\bin\Debug\netstandard2.0\CommandLet.Models.dll
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\bin\Debug\netstandard2.0\CommandLet.Models.pdb
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\obj\Debug\netstandard2.0\CommandLet.Models.csprojAssemblyReference.cache
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\obj\Debug\netstandard2.0\CommandLet.Models.AssemblyInfoInputs.cache
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\obj\Debug\netstandard2.0\CommandLet.Models.AssemblyInfo.cs
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\obj\Debug\netstandard2.0\CommandLet.Models.csproj.CoreCompileInputs.cache
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\obj\Debug\netstandard2.0\CommandLet.Models.dll
+G:\MY_APP_PORTAL\WEB-APPS\ASP-NET-CORE-PROD\CommandLet\CommandLet.Models\obj\Debug\netstandard2.0\CommandLet.Models.pdb
