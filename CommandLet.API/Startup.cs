@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using CommandLet.API.Services.Interfaces;
 using CommandLet.API.Services.Repositories;
+using CommandLet.API.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace CommandLet.API
 {
@@ -27,11 +29,11 @@ namespace CommandLet.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
             //register db context for DB Access to SQL Server
             services.AddDbContext<CommandLetContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
 
+            services.AddControllers();
+            
             //Register Services
             services.AddScoped<ICommandRepository, CommandRepository>();
 

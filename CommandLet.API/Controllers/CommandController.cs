@@ -30,7 +30,7 @@ namespace CommandLet.API.Controllers
         [HttpGet("{id}")]
         public ActionResult GetCommand(int id)
         {
-            var cmd = _commandRepository.GetCommandAsync();
+            var cmd = _commandRepository.GetCommandAsync(id);
             return Ok(cmd);
 
         }

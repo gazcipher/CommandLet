@@ -13,6 +13,16 @@ namespace CommandLet.API.Services.Repositories
 
         }
 
+        public Task<bool> CommandLetExists(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task DeleteCommandLet(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public async Task<Command> GetCommandAsync(int id)
         {
             return new Command{Id=0, HowTo="Hello", CmdLet="dotnet run", Platform="Windows/Linux"};
@@ -31,6 +41,11 @@ namespace CommandLet.API.Services.Repositories
         }
 
         public Task<bool> SaveAsync()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task UpdateCommadLet(Command cmd)
         {
             throw new System.NotImplementedException();
         }
