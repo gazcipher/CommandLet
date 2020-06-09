@@ -9,9 +9,10 @@ namespace CommandLet.API.Services.Interfaces
         Task<IEnumerable<Command>> GetCommandsAsync();
         Task<Command> GetCommandAsync(int id);
         Task<bool> CommandLetExists(int id);
+        Task AddComand(Command cmd);
         Task UpdateCommadLet(Command cmd);
         Task DeleteCommandLet(Command cmd);
-        Task<bool> SaveAsync();
+        Task<bool> SaveCommandAsync();
 
 
     }

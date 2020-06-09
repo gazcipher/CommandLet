@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J9TptXE6M1LhTKY+eMPb788BxYuBTB8hifpl2QNnKJGVLR5RPCVSTr7KDueTwVKotrSmLYYXTNO7j9hRRJQRTA==",
+  "dgSpecHash": "YPWKD79x1Djj4er4u3Qp7tmTEVZ6wLHIvvsrpV6EpuW+Tpb5+E/6G5W73LWmbg0krXIh+jWeFCZVBbjzDFe4uA==",
   "success": true,
-  "projectFilePath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj",
+  "projectFilePath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GAZCIPHER\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\GAZCIPHER\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

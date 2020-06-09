@@ -4,14 +4,16 @@ using CommandLet.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CommandLet.API.Migrations
 {
     [DbContext(typeof(CommandLetContext))]
-    partial class CommandLetContextModelSnapshot : ModelSnapshot
+    [Migration("20200607165534_added_stringlen")]
+    partial class added_stringlen
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

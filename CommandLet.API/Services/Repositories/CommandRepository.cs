@@ -1,53 +1,86 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using CommandLet.API.Data;
 using CommandLet.API.Services.Interfaces;
 using CommandLet.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CommandLet.API.Services.Repositories
 {
-    public class CommandRepository : ICommandRepository
+    public class CommandRepository : ICommandRepository, IDisposable
     {
-        public CommandRepository()
+        private CommandLetContext _context;
+
+
+        public CommandRepository(CommandLetContext context)
         {
 
-
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public Task<bool> CommandLetExists(int id)
+        public async Task AddComand(Command cmd)
         {
-            throw new System.NotImplementedException();
+            if(cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+            await _context.AddAsync(cmd);
         }
 
-        public Task DeleteCommandLet(Command cmd)
+        public async Task<bool> CommandLetExists(int id)
         {
-            throw new System.NotImplementedException();
+            return await _context.Commands.AnyAsync(c => c.Id == id);
+        }
+
+        public async Task DeleteCommandLet(Command cmd)
+        {
+            if(cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+            _context.Commands.Remove(cmd);
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        //Dispose object - Garbagge collection
+        protected virtual void Dispose(bool disposing)
+        {
+            if(disposing)
+            {
+                if(_context != null)
+                {
+                    _context.Dispose();
+                    _context = null;
+                }
+            }
         }
 
         public async Task<Command> GetCommandAsync(int id)
         {
-            return new Command{Id=0, HowTo="Hello", CmdLet="dotnet run", Platform="Windows/Linux"};
+            return await _context.Commands.FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task<IEnumerable<Command>> GetCommandsAsync()
         {
-            var cmds = new List<Command>
-            {
-                new Command{Id=0, HowTo="Bash", CmdLet="bash -c", Platform="Linux"},
-                new Command{Id=1, HowTo="Brew", CmdLet="brew install", Platform="Mac OS"},
-                new Command{Id=2, HowTo="Choco", CmdLet="choco install", Platform="Windows"}
-            };
-
-            return cmds;
+            return await _context.Commands.OrderBy(c => c.Id).ToListAsync();
         }
 
-        public Task<bool> SaveAsync()
+        public async Task UpdateCommadLet(Command cmd)
         {
-            throw new System.NotImplementedException();
+            _context.Entry(cmd).State = EntityState.Modified;
+            await SaveCommandAsync();
         }
 
-        public Task UpdateCommadLet(Command cmd)
+        public async Task<bool> SaveCommandAsync()
         {
-            throw new System.NotImplementedException();
+            return (await _context.SaveChangesAsync() > 0);
         }
     }
 }

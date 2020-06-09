@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Aj26TlqVNVUM5SLapDdF7uDxTVZ267Jqk8iJo99WiFqKDasJA80d/+o240+KxvZumybR8EI5oM9RhLLlNXNo6A==",
+  "dgSpecHash": "wNi/yV4ovSZy0aVvQx4sDCtqkdFGDxRa+inWVIo9HyjNUO0b/rEVAJzuC0LgxFomIcK00kUQL50JFeSiMfodXA==",
   "success": true,
-  "projectFilePath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Models\\CommandLet.Models.csproj",
+  "projectFilePath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Models\\CommandLet.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GAZCIPHER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

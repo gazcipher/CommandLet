@@ -12,6 +12,7 @@ namespace CommandLet.Models
         public string HowTo { get; set; }
 
         [Required(ErrorMessage = "Command syntax is required")]
+        [MaxLength(250, ErrorMessage="Cmd Cannot Be More Than 250 Characters!")]
         public string CmdLet { get; set; }
         public string Platform { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;

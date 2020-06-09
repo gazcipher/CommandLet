@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj": {}
+    "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj": {}
   },
   "projects": {
-    "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj": {
+    "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj",
+        "projectUniqueName": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj",
         "projectName": "CommandLet.Test",
-        "projectPath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj",
+        "projectPath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\CommandLet.Test.csproj",
         "packagesPath": "C:\\Users\\GAZCIPHER\\.nuget\\packages\\",
-        "outputPath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\obj\\",
+        "outputPath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

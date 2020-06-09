@@ -4939,11 +4939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.API\\CommandLet.API.csproj",
+      "projectUniqueName": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.API\\CommandLet.API.csproj",
       "projectName": "CommandLet.API",
-      "projectPath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.API\\CommandLet.API.csproj",
+      "projectPath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.API\\CommandLet.API.csproj",
       "packagesPath": "C:\\Users\\GAZCIPHER\\.nuget\\packages\\",
-      "outputPath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.API\\obj\\",
+      "outputPath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4962,8 +4962,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Models\\CommandLet.Models.csproj": {
-              "projectPath": "G:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Models\\CommandLet.Models.csproj"
+            "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Models\\CommandLet.Models.csproj": {
+              "projectPath": "g:\\MY_APP_PORTAL\\WEB-APPS\\ASP-NET-CORE-PROD\\CommandLet\\CommandLet.Models\\CommandLet.Models.csproj"
             }
           }
         }
